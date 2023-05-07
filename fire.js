@@ -48,7 +48,7 @@ function updateFireIntensityPerPixel(currentPixelIndex) {
 function renderFire() {
     const debug = false
 
-    let html = '<table cellpading=0 cellspacing=0>'
+    let html = '<table cellpadding=0 cellspacing=0>'
 
     for (let row = 0; row < fireHeigth; row++) {
         html += '<tr>'
